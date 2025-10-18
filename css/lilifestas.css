@@ -501,7 +501,7 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--black);
+  background: rgb(0, 0, 0, 0.3);
   justify-content: center;
   align-items: flex-start;
   z-index: 1000;
@@ -520,7 +520,7 @@ header{
   width: 90%;
   max-width: 900px;
   position: relative;
-  box-shadow: 0 5px 20px var(--black);
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.3);
 }
 
 .modal-close {
@@ -856,16 +856,16 @@ header{
     }
 
     .about-section::before {
-        opacity: 0.3;
+        opacity: 0.2;
     }
     .about-section::after {
         display: none;
     }
     .portfolio-section::before {
-        opacity: 0.3;
+        opacity: 0.2;
     }
     .portfolio-section::after {
-        opacity: 0.3;
+        opacity: 0.2;
 }
 }
 
