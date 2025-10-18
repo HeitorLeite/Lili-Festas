@@ -520,7 +520,7 @@ header{
   width: 90%;
   max-width: 900px;
   position: relative;
-  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.4);
 }
 
 .modal-close {
@@ -675,7 +675,7 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     transform: translate(-30%, -50%);
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .about-section::after {
@@ -691,7 +691,7 @@ header{
     background-repeat: no-repeat;
     transform: translateX(25%);
     transform: rotate(180deg);
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .portfolio-section::before {
@@ -705,7 +705,7 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     transform: translateX(-25%) rotate(-15deg);
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .portfolio-section::after {
@@ -720,7 +720,7 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     transform: translateX(25%) rotate(15deg);
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 @media (min-width: 992px) {
@@ -856,16 +856,16 @@ header{
     }
 
     .about-section::before {
-        opacity: 0.2;
+        opacity: 0.1;
     }
     .about-section::after {
         display: none;
     }
     .portfolio-section::before {
-        opacity: 0.2;
+        opacity: 0.1;
     }
     .portfolio-section::after {
-        opacity: 0.2;
+        opacity: 0.1;
 }
 }
 
